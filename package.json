@@ -1,0 +1,24 @@
+{
+  "name": "yydsbox-contracts",
+  "description": "YYDS BOX",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "hardhat compile",
+    "compile": "hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yydsbox/yydsbox-contracts.git"
+  },
+  "author": "yydsbox <yydsbox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.2.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.2"
+  }
+}
